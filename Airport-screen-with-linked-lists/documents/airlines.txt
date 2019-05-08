@@ -1,0 +1,100 @@
+1 – Qatar Airways
+2 – Singapore Airlines
+3 – ANA All Nippon Airways
+4 – Emirates
+5 – Cathay Pacific
+6 – EVA Air
+7 – Lufthansa
+8 – Etihad Airways
+9 – Hainan Airlines
+10 – Garuda Indonesia
+11 – Thai Airways
+12 – Turkish Airlines
+13 – Virgin Australia
+14 – Swiss Int'l Air Lines
+15 – Qantas Airways
+16 – Japan Airlines
+17 – Austrian
+18 – Air France
+19 – Air New Zealand
+20 – Asiana Airlines
+21 – Bangkok Airways
+22 – KLM
+23 – China Southern
+24 – Hong Kong Airlines
+25 – Finnair
+26 – AirAsia
+27 – Cathay Dragon
+28 – Norwegian
+29 – Air Canada
+30 – Aeroflot
+31 – Malaysia Airlines
+32 – Delta Air Lines
+33 – Virgin Atlantic
+34 – Korean Air
+35 – China Airlines
+36 – Alaska Airlines
+37 – Aegean Airlines
+38 – Aer Lingus
+39 – jetBlue Airways
+40 – British Airways
+41 – easyJet
+42 – Iberia
+43 – Virgin America
+44 – Jetstar Airways
+45 – AirAsiaX
+46 – Air Astana
+47 – Vietnam Airlines
+48 – Ethiopian Airlines
+49 – South African Airways
+50 – Avianca
+51 – Saudi Arabian Airlines
+52 – Azul Brazilian
+53 – Oman Air
+54 – Southwest Airlines
+55 – Porter Airlines
+56 – SilkAir
+57 – Indigo
+58 – WestJet
+59 – LATAM
+60 – Scoot
+61 – Jetstar Asia
+62 – TAP Air Portugal
+63 – Alitalia
+64 – Eurowings
+65 – SAS Scandinavian
+66 – Thomson Airways
+67 – Philippine Airlines
+68 – Brussels Airlines
+69 – Copa Airlines
+70 – Air Transat
+71 – Azerbaijan Airlines
+72 – China Eastern
+73 – Jet Airways
+74 – American Airlines
+75 – Fiji Airways
+76 – Ryanair
+77 – Air Mauritius
+78 – United Airlines
+79 – LOT Polish
+80 – Air Seychelles
+81 – SriLankan Airlines
+82 – Icelandair
+83 – Juneyao Airlines
+84 – Gulf Air
+85 – Air Berlin
+86 – Hawaiian Airlines
+87 – American Eagle Airlines
+88 – Vueling
+89 – Air Nostrum
+90 – Tigerair
+91 – Kenya Airways
+92 – Royal Brunei Airlines
+93 – Air Malta
+94 – Xiamen Airlines
+95 – S7 Airlines
+96 – Peach
+97 – Royal Air Maroc
+98 – Air China
+99 – Air Canada rouge
+100 – Aeromexico

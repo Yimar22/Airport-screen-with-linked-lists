@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="bpPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="446.0" prefWidth="526.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.AirportScreenController">
+   <center>
+      <TableView prefHeight="318.0" prefWidth="551.0" BorderPane.alignment="CENTER">
+        <columns>
+            <TableColumn fx:id="dateColumn" prefWidth="93.0" text="Date" />
+          <TableColumn fx:id="timeColumn" prefWidth="84.0" text="Time" />
+          <TableColumn fx:id="airlineColumn" prefWidth="94.0" text="Airline" />
+            <TableColumn fx:id="flightColumn" prefWidth="91.0" text="Flight" />
+            <TableColumn fx:id="toColumn" prefWidth="102.0" text="To" />
+            <TableColumn fx:id="gateColumn" prefWidth="61.0" text="Gate" />
+        </columns>
+      </TableView>
+   </center>
+   <top>
+      <Pane prefHeight="84.0" prefWidth="626.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="lbTime" layoutX="157.0" layoutY="54.0" prefHeight="27.0" prefWidth="201.0" />
+            <Label layoutX="161.0" layoutY="10.0" prefHeight="65.0" prefWidth="204.0" text="Salidas/Departures" textAlignment="CENTER">
+               <font>
+                  <Font name="Lucida Sans Demibold" size="20.0" />
+               </font></Label>
+            <MenuBar layoutY="-2.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="Options">
+                  <items>
+                        <Menu mnemonicParsing="false" text="Sorts Flights">
+                          <items>
+                            <MenuItem mnemonicParsing="false" onAction="#sortDate" text="Sort for date" />
+                              <MenuItem mnemonicParsing="false" onAction="#sortTime" text="Sort for time" />
+                              <MenuItem mnemonicParsing="false" onAction="#sortFlightNumber" text="Sort for flight number" />
+                              <MenuItem mnemonicParsing="false" onAction="#sortDestination" text="Sort for destinations" />
+                              <MenuItem mnemonicParsing="false" onAction="#sortGate" text="Sort for gate" />
+                          </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Search flights">
+                           <items>
+                              <MenuItem fx:id="searchAirline" mnemonicParsing="false" text="Search for airlines">
+                                 <graphic>
+                                    <TextField fx:id="searchTextField" />
+                                 </graphic>
+                              </MenuItem>
+                              <MenuItem fx:id="searchFlightNumber" mnemonicParsing="false" text="Search for flight number">
+                                 <graphic>
+                                    <TextField fx:id="searchTextField" />
+                                 </graphic>
+                              </MenuItem>
+                              <MenuItem fx:id="searchDestination" mnemonicParsing="false" text="Search for destination">
+                                 <graphic>
+                                    <TextField fx:id="searchTextField" />
+                                 </graphic>
+                              </MenuItem>
+                              <MenuItem fx:id="searchGate" mnemonicParsing="false" text="Search for gate">
+                                 <graphic>
+                                    <TextArea fx:id="searchTextField" prefHeight="200.0" prefWidth="200.0" />
+                                 </graphic>
+                              </MenuItem>
+                           </items>
+                        </Menu>
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <ImageView fitHeight="85.0" fitWidth="95.0" layoutX="431.0" layoutY="-2.0">
+               <image>
+                  <Image url="@../../resources/Airport.PNG" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="37.0" prefWidth="602.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="tfNumberFlights" layoutX="226.0" layoutY="6.0" prefHeight="25.0" prefWidth="25.0" promptText="#" />
+            <Label layoutX="14.0" layoutY="10.0" text="How many flights do you want to see?" />
+            <Button layoutX="260.0" layoutY="6.0" mnemonicParsing="false" onAction="#generateFlights" text="Generate" />
+            <Label fx:id="lbtimeSystem" layoutX="408.0" layoutY="10.0" />
+            <Label fx:id="lbInfoSearch" layoutX="429.0" layoutY="10.0" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>
